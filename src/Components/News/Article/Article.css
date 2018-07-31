@@ -1,0 +1,10 @@
+
+.Article img{
+    width: 100%;
+}
+.Article p{
+    display: inline-block;
+    /* float: left; */
+    margin-top: 20px;
+    font-size: 18px;
+}

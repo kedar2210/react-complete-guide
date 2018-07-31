@@ -1,0 +1,125 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center; */
+}
+
+.calculator
+{
+    position: relative;
+    background:linear-gradient(rgba(249, 183, 31, 0.88),rgba(249, 183, 31, 0.88)), url('http://layerdrops.com/bomex/img/background-1-1.jpg')  center center no-repeat fixed;
+    /* background-color: #F9B81F; */
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding-left: 25%;
+    padding-right: 25%; */
+}
+/* .calculator ::before{
+    position: absolute;
+    opacity: 0.95;
+    background-color: #F9B81F;
+} */
+.calculator p{
+    font-size: 18px;
+    color: #181818;
+}
+.calculator h1{
+    font-weight: 600; 
+}
+.calculator span{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+padding-bottom: 30px;
+}
+.btn
+{
+    height: 60px;
+    width: 200px;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+    font-size: 22px;
+}
+#num1
+{
+    line-height: 30px;
+    padding-left: 10px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    background-color:transparent;
+    color:black;
+    margin-bottom: 25px;
+    font-size: 30px;
+    /* display: inline; */
+}
+@media (max-width:576px)
+{
+    #num1{
+        font-size: 20px;
+        width: 50%;
+    }
+}
+#num1:focus
+{
+    
+    border: 0px;
+    outline: 0px;
+    border-bottom: 2px solid gray;
+   
+}
+.back-to-top
+{
+    text-align: center;
+    box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2) ;
+    padding: 12px;
+    background-color: #F9B81F;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;;
+    cursor: pointer;
+    /* transition: color 3s; */
+
+}
+/* .back-to-top :hover{
+    background-color: #171717;
+    color: #F9B81F;
+} */
+.back-to-top a{
+    color: white;
+}
+footer{
+    margin-top: 50px;
+}
+.footer-bottom{
+    background-color: #181818;
+}
+/* .footer-bottom .row{
+    margin: 0px;
+    padding: 0px;
+} */
+.footer-content
+{
+    padding-left: 05%;
+    padding-right: 05%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-content p{
+    color: #707070;
+    font-size: 15px;
+}
